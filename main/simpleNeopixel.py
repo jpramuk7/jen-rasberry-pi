@@ -1,6 +1,7 @@
 import board
 import neopixel
 import time
+import RPi.GPIO as GPIO
 #the 30 here corresponds to the number of lights in the LED
 pixels = neopixel.NeoPixel(board.D18, 30)
 
